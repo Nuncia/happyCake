@@ -1,0 +1,67 @@
+.navbar{
+  background-color: red;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.contenedor_imagen{
+ /* background-image: url(./assets/birthday-cake.255x256.png);  */
+ /* background-repeat: no-repeat; */
+ width: 100%;
+}
+.imagen{
+  width: 100px;
+}
+.contacto{
+  width: 20px;
+  padding: 2px;
+}
+.home{
+  width: 20px;
+  margin: 2px;
+}
+.formulario{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.correo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 34px 60px 28px 0px;
+  width: 80rem;
+  padding-left: 254px
+}
+.descripcion{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.textArea{
+  border: 1px solid #7d7b7b;
+  width: 64rem;
+  padding: .5rem;
+  min-height: 5rem;
+}
+.textArea:empty::before{
+  position: absolute;
+  content: 'Escribe aquí...';
+}
+.boton{
+  background-color: red;
+  border: 1px solid red;
+  color: #f9f7f7;
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.marca{
+  width: 40px;
+  margin-right: 20px;
+}
