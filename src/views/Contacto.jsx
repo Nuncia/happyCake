@@ -14,6 +14,7 @@ const Contacto = () => {
         <label className="form-label">Descripción</label>
         <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
+      <button className="boton">Enviar</button>
     </div>
   )
 }

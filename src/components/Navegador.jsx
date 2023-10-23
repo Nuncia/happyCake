@@ -5,7 +5,7 @@ import Contacts from '../assets/contacts.192x256.png';
 import Home from '../assets/house-building.241x256.png';
 import ShortCake from '../assets/Iconarchive-Fat-Sugar-Food-Cake.512.png';
 
-const Navegador = () => {
+const NavBar = () => {
   return (
     <Navbar
         className='navbar'   
@@ -34,4 +34,4 @@ const Navegador = () => {
   )
 }
 
-export default Navegador
+export default NavBar
